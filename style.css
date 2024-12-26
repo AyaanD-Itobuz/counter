@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 40px;
+}
+.container .container-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.container #inc {
+  padding: 10px;
+  border: none;
+  background-color: bisque;
+  cursor: pointer;
+}
+.container #inc:hover {
+  background-color: aquamarine;
+}
+.container #reset {
+  padding: 10px;
+  border: none;
+  background-color: bisque;
+  cursor: pointer;
+}
+.container #reset:hover {
+  background-color: aquamarine;
+}
+.container #dec {
+  padding: 10px;
+  border: none;
+  background-color: bisque;
+  cursor: pointer;
+}
+.container #dec:hover {
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */
